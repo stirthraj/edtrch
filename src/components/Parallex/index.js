@@ -4,11 +4,11 @@ export default function Parallex(){
       <div className="container-fluid">
         {/* parallax scrolling */}
         <div className="para d-flex justify-content-center align-items-center">
-          <div className="bg-white w-75 p-5">
-            <h1 className="sd font-weight-bold text-warning">
+          <div className="bg-white w-75 p-2">
+            <h1 className="sd font-weight-bold text-warning text-center">
               ABC Mirganj
             </h1>
-            <p className="ds text-primary">
+            <p className="ds text-primary text-center">
               Technological expertise coupled with award-winning UX skills is
               what makes us the leading web development company in India - and
               helps us build world class websites and web applications.

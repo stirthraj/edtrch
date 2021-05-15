@@ -3,10 +3,11 @@ import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 // using ES6 modules
 // import { Document } from 'react-pdf/dist/esm/entry.parcel';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import './style.css'
 
 // import "./Sample.less";
-
-import pdfFile from "./sample.pdf";
+// src\components\Pdf\ReactJSNotesForProfessionals.pdf
+import pdfFile from "./ReactJSNotesForProfessionals.pdf";
 
 const options = {
   cMapUrl: "cmaps/",
@@ -26,11 +27,11 @@ export default function Pdf() {
   }
 
   return (
-    <div className="Example">
+    <div className="container-fluid">
       <header>
         <h1>react-pdf sample page</h1>
       </header>
-      <div className="Example__container">
+      <div className="Example__container text-center">
         <div className="Example__container__load">
           <label htmlFor="file">Load from file:</label>{" "}
           <input onChange={onFileChange} type="file" />
