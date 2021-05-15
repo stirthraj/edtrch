@@ -1,0 +1,14 @@
+.hero{
+    background-image: url(../../assets/newhero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    display: grid;
+    place-items: center;
+}
+.hero-text{
+    background-color: white;
+    color:black;
+    padding: 10px;
+}
